@@ -13398,3 +13398,6 @@ p.checkout-coupon input[type=text]:focus {
   justify-content: center;
   color: white;
 }
+.product-content p{
+  /* color: red; */
+}
