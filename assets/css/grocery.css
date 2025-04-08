@@ -3069,8 +3069,8 @@ PAGINATION CSS START
   position: absolute;
   top: -6px;
   right: -13px;
-  width: 23px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
   line-height: 20px;
   text-align: center;
   border-radius: 50%;
@@ -13383,4 +13383,18 @@ p.checkout-coupon input[type=text]:focus {
   .footer-widget-5-4 {
     width: 100%;
   }
+}
+
+/* Kelvin starts here */
+.banner-4{
+  background-color: #80b50121;
+}
+.font-24{
+  font-size: 24px !important;
+}
+.product-action-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
