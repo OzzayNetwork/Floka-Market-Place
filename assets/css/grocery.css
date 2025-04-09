@@ -13392,6 +13392,7 @@ p.checkout-coupon input[type=text]:focus {
 /* Kelvin starts here */
 .banner-4{
   background-color: #f8e3e4;
+  background-color: #f2f8e5;
 }
 .font-24{
   font-size: 24px !important;
@@ -13430,4 +13431,9 @@ p.checkout-coupon input[type=text]:focus {
 }
 .product-content{
   margin-top: 0px;
+}
+
+.banner-title-4 {
+  font-weight: bolder;
+  text-transform: uppercase;
 }
