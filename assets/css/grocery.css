@@ -13437,3 +13437,67 @@ p.checkout-coupon input[type=text]:focus {
   font-weight: bolder;
   text-transform: uppercase;
 }
+.contact-from{
+  background: #80b501;
+}
+.contact-info-icon span{
+  background: #80b501;
+}
+.contact-info-item{
+  background: rgba(129, 184, 0, 0.15);
+}
+
+/* styling inputs */
+/* Base styles for text inputs, textareas and selects */
+
+
+/* Focus styles for text inputs, textarea and select */
+input:not([type="radio"]):not([type="checkbox"]):focus,
+textarea:focus,
+select:focus {
+  border-color: #80b501;
+  box-shadow: 0 0 0 3px rgba(128, 181, 1, 0.2);
+}
+
+
+
+
+
+
+
+/* Add a subtle hover effect */
+input:not([type="radio"]):not([type="checkbox"]):hover, 
+select:hover, 
+textarea:hover {
+  border-color: #bdbdbd;
+}
+
+/* Custom styling for the processing-option select */
+.processing-option {
+  border-color: #e5e5e5;
+  padding: 8px 12px;
+}
+
+.processing-option:focus {
+  border-color: #80b501;
+}
+.checkout-area .your-order-table table td{
+  font-size: 13px;
+}
+
+.checkout-area .your-order-table table td {
+  font-size: 13px;
+}
+
+/* Make the second td (total price) bold and black */
+.checkout-area .your-order-table table td.product-total {
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Adding this if you want the same styling for the footer totals */
+.checkout-area .your-order-table table tfoot td {
+  font-weight: bold;
+  color: #000000;
+}
+
