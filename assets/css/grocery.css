@@ -9198,6 +9198,7 @@ div[class*=col]:last-child .counter-item-2::after {
 @media only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .product-thumb {
     padding: 80px 30px 40px;
+    padding: 0px;
   }
 }
 .product-thumb img {
@@ -12294,6 +12295,7 @@ p.checkout-coupon input[type=text]:focus {
 @media screen and (max-width: 425px) {
   .grocery__product .product-thumb {
     padding: 60px 30px 40px;
+    padding: 0px;
   }
 }
 .grocery__product .product-action-item {
@@ -12302,6 +12304,7 @@ p.checkout-coupon input[type=text]:focus {
   visibility: hidden;
   transform: rotateX(-90deg);
   transition: all 0.3s 0s ease-out;
+  padding-bottom: 30px;
 }
 .grocery__product .product-content {
   border-top: none;
@@ -12328,6 +12331,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .grocery__product .product-thumb {
   padding-bottom: 30px;
+  padding: 0px;
 }
 .grocery__product:hover .product-action-item {
   opacity: 1;
@@ -13387,7 +13391,7 @@ p.checkout-coupon input[type=text]:focus {
 
 /* Kelvin starts here */
 .banner-4{
-  background-color: #80b50121;
+  background-color: #f8e3e4;
 }
 .font-24{
   font-size: 24px !important;
@@ -13400,4 +13404,30 @@ p.checkout-coupon input[type=text]:focus {
 }
 .product-content p{
   /* color: red; */
+}
+.product-thumb {
+  position: relative;
+  background-color: black;
+}
+.product-thumb::before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(to bottom, transparent, black);
+  content: "";
+  z-index: 10;
+}
+.product-action-item{
+  z-index: 100;
+  position: relative;
+  padding-bottom: 30px;
+  background: black;
+}
+.product-thumb{
+  padding: 0px;
+}
+.product-content{
+  margin-top: 0px;
 }
